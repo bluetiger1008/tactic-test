@@ -14,3 +14,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.card-content {
+  border-top: 1px solid lightgrey;
+}
