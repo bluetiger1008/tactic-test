@@ -1,9 +1,9 @@
 import Head from 'next/head'
 
-import Card from './components/card'
-import Pie from './components/pie'
-import BarChart from './components/barChart'
-import { pieData, barData } from './assets/chartData'
+import Card from '../components/card'
+import Pie from '../components/pie'
+import BarChart from '../components/barChart'
+import { pieData, barData } from '../helpers/chartData'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
